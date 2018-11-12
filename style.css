@@ -1,0 +1,86 @@
+
+body , html {
+    background-color: #fff;
+    color: rgb(90, 90, 90);
+    font-family: arial,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nvb::first-letter{
+    text-transform: uppercase;
+}
+
+/* ********************* */
+/* style navigatioon bar here */
+
+.nvb{
+    float: right;
+    padding: 18px;
+    margin: 10px;
+    
+}
+
+.nvb a{
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-size: 12pt;
+    padding-left: 10px;
+    
+}
+/* thisis for button in the toop  */
+header .cn{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(69,132,239);
+    
+}
+.nvb a:hover{
+    text-decoration: underline;
+}
+
+/* section of search bar and content  */
+
+section{
+    
+    width: 50%;
+    
+}
+
+/* style footer  */
+/* *************************** */
+.ft{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(243, 243, 243);
+    color: rgb(90, 90, 90);
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.ft-p , .nv-ft{
+    margin: 5px;
+    padding: 8px;
+}
+
+.ft-p{
+    padding-left: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.nv-ft a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: rgb(90, 90, 90);
+    font-size: 11pt
+}
+
+.nv-ftr{
+    float: right;
+}
+
+.nv-ft a:hover{
+    text-decoration: underline;
+}
